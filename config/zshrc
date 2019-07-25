@@ -1,1 +1,12 @@
-/home/hatf0/.zshrc
+export ZSH="/home/hatf0/.oh-my-zsh"
+export EDITOR="/usr/bin/zsh"
+ZSH_THEME="robbyrussell"
+ENABLE_CORRECTION="true"
+COMPLETION_WAITING_DOTS="true"
+plugins=(git)
+
+source $ZSH/oh-my-zsh.sh
+export EDITOR='vim'
+
+# Added by Krypton
+export GPG_TTY=$(tty)
